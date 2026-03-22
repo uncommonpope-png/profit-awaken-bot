@@ -1,0 +1,50 @@
+{
+  "name": "Profit Awaken Bot",
+  "version": "1.0.0",
+  "owner": "ForgeClaw User",
+  "description": "Autonomous profit-generating AI agent powered by ForgeClaw skills",
+  "skills": {
+    "enabled": "all",
+    "autoInstall": true,
+    "forgeClawSource": "../forgeclaw_skills/forgeclaw_skills/skills"
+  },
+  "profit": {
+    "trackingEnabled": true,
+    "currency": "USD",
+    "revenueStreams": [
+      {
+        "name": "Book Sales",
+        "enabled": true,
+        "skill": "gumroad"
+      },
+      {
+        "name": "Digital Products",
+        "enabled": true,
+        "skill": "notion"
+      },
+      {
+        "name": "Freelance Tasks",
+        "enabled": true,
+        "skill": "github"
+      }
+    ],
+    "goals": {
+      "daily": 100,
+      "weekly": 700,
+      "monthly": 3000
+    }
+  },
+  "automation": {
+    "checkInterval": 60000,
+    "proactiveMode": true,
+    "notifications": {
+      "discord": false,
+      "slack": false,
+      "telegram": false
+    }
+  },
+  "logging": {
+    "level": "info",
+    "directory": "./logs"
+  }
+}

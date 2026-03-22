@@ -1,0 +1,27 @@
+{
+  "name": "profit-awaken-bot",
+  "version": "1.0.0",
+  "description": "Autonomous profit-generating AI agent powered by ForgeClaw skills",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js start",
+    "status": "node src/bot.js status",
+    "skills": "node src/bot.js skills",
+    "run": "node src/bot.js run",
+    "dev": "node src/bot.js"
+  },
+  "keywords": [
+    "ai",
+    "bot",
+    "automation",
+    "profit",
+    "forgeclaw",
+    "openclaw"
+  ],
+  "author": "ForgeClaw User",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uncommonpope-png/forgeclaw-skills"
+  }
+}

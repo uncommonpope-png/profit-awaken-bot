@@ -1,6 +1,6 @@
 # 💰 Profit Awaken Bot
 
-> Autonomous profit-generating AI agent powered by 52 ForgeClaw skills
+> Autonomous profit-generating AI agent powered by ForgeClaw skills + OpenClaw ecosystem
 
 ## 🚀 Quick Start
 
@@ -161,7 +161,37 @@ All revenue and tasks are tracked in `data/profit_state.json`:
 ## 🔌 Powered By
 
 - **ForgeClaw Skills** - 52 extracted OpenClaw skills
+- **OpenClaw Ecosystem** - 50+ community tools harvested
+- **Memory Systems** - MemOS, MoltBrain, memU, memov
+- **Alternative Architectures** - TinyClaw, IronClaw, NanoClaw, PicoClaw
 - **OpenClaw** - Original skill source (MIT License)
+
+## 🧠 Memory Systems Included
+
+| System | Description |
+|--------|-------------|
+| MemOS | Memory operating system for agents |
+| MoltBrain | Long-term memory for OpenClaw |
+| memU | Agent memory layer for assistants |
+| memov | Memory layer and retrieval toolkit |
+| powermem | Long-term memory plugin |
+
+## 🏗️ Alternative Architectures
+
+| Project | Description |
+|---------|-------------|
+| TinyClaw | OpenClaw in 400 lines of code |
+| IronClaw | Rust, privacy-focused |
+| NanoClaw | Lightweight alternative |
+| PicoClaw | Runs on $10 hardware |
+| MicroClaw | Rust-based with tool execution |
+| Carapace | Security-focused with sandboxing |
+
+## 🔌 MCP Servers
+
+- **openclaw-mcp-adapter** - Native OpenClaw tool access
+- **openclaw-claude-code-skill** - Claude Code integration
+- **openclaw-mcp-server** - MCP server for Gateway tools
 
 ## 📄 License
 
